@@ -1,0 +1,361 @@
+@import url('https://fonts.google.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+font-family: 'Poppins',sans-serif;
+
+
+
+}
+section{
+    position: relative;
+    width: 100%;
+    min-height: 63vh;
+    padding: 92px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+}
+header{
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+header .logo{
+    position: relative;
+    max-width: 80px;
+}
+.logo img {
+    height: 78px;
+    width: 144px;
+  
+
+}
+header ul{
+    position: relative;
+    display: flex;
+} header ul li{
+    list-style: none;
+    
+}
+header ul li a{
+    display: inline-block;
+    margin-top: 20px;
+    background: #3293d4;
+    padding: 8px 20px;
+    color: #fff;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+header ul li a:hover{
+    color: black;
+    background-color: #3293d4;
+
+}
+.content{
+    position: relative;
+    width: 100%;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+}
+.content .textBox{
+    position: relative;
+    max-width: 600px;
+    font-size: 30px;
+}
+.content .textBor h2{
+    color: #333;
+    font-size: 4em;
+    line-height: 1.4em;
+    font-weight: 500;
+}
+.content .textBox h2 span{
+    color: #3293d4;
+    font-size: 1.2em;
+    font-weight: 900;
+
+
+}
+.content .textBox p{
+    color: #333;
+
+}
+.content .textBox a{
+    display: inline-block;
+    margin-top:20px;
+    background: #3293d4;
+    padding: 8px 20px;
+    color: #fff;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.content .imgBox{
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    margin-top: 50px; 
+
+}
+.content .imgBox img{
+    max-width: 340px;
+}
+.thumb{
+    position: absolute;
+    left: 10%;
+    bottom: 80px;
+    transform:translateX(-50%);
+    display: flex;
+}
+.thumb li{
+    list-style: none;
+    display: inline-block;
+    margin: o 20px;
+    cursor: pointer;
+    transition: 0.55;
+
+}
+.thumb li:hover{
+    transform: translateY(-15px);
+}
+.thumb li img{
+    max-width: 80px;
+    padding: 10px;
+}
+.sci{
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sci li{
+    list-style: none;
+}
+
+ .sci li a{
+     filter: invert(1); 
+     display: inline-block; 
+     margin: 5px 0;
+     transform: scale(0.6);  
+}
+.circle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #3293d4;
+    clip-path: circle(600px at right 800px);
+}
+#about .h-primary{
+    margin-top: 20px;
+    background: #3293d4;
+    padding: 8px 20px;
+    color: #fff;
+    border-radius: 91% 90%;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-align: center;
+}
+#about .h-primary #second{
+    font-family: serif;
+
+}
+.w3-wide{
+    letter-spacing:1px;
+}
+.w3-white,.w3-hover-white:hover
+{
+    color:#000!important;
+    background-color:#fff!important
+}
+.w3-dark-grey,.w3-hover-dark-grey:hover,.w3-dark-gray,.w3-hover-dark-gray:hover{
+    color:#fff!important;
+    background-color:#616161!important
+}
+.w3-xlarge{
+    font-size:24px!important
+}
+
+/* .vk1 .vk2{
+    display: flex;
+} */
+
+.vk1{
+    display: flex;
+    border:2px solid black;
+    padding: 34px;
+    margin: 2px 55px;
+    border-radius: 28px;
+    background: #3293d4;
+    margin-bottom: 20px;
+}
+.vk1 .vk{
+    text-align: center;
+
+}
+.vk1 .vk .vk2{
+    padding: 121px;
+    font-weight: 500;
+    font-size: 11px;
+}
+p#second {
+    font-style: italic;
+    font-size: x-large;
+    font-family: math;
+    padding: 14px;
+}
+h3#vk4 {
+    text-align: center;
+}
+/* #contact{
+    position: relative;
+
+} */
+#contact{
+    content: "";
+    position: absolute;
+    width: 100%;
+    display: block;
+    height: 40%;
+    z-index: -1;
+    opacity: 0.7;
+    
+   
+}#contact-box{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:34px; 
+    background: url(contact.jpg) no-repeat center/cover;
+    
+
+ }
+
+
+#contact-box .form-group{
+    width: 86%;
+    padding: 15px;
+    
+} 
+#contact-box .form-group label{
+    font-size: 1.3rem;
+    font-family: 'Courier New', Courier, monospace;
+    width: 40%;
+    height: 10px;
+    font-weight: bold;
+    
+
+
+}
+#contact-box .formgroup label{
+    font-size: 1.3rem;
+    font-family: 'Courier New', Courier, monospace;
+    width: 40%;
+    height: 10px;
+    font-weight: bold;
+}
+#contact-box .form-group input{
+    border-radius: 10px;
+    border: 2px solid black;
+    height: 35px;
+    width: 50%;
+}
+button.btn2{
+    background-color: #3293d4;
+    border: 2px solid black;
+    padding: 14px 30px;
+    border-radius: 14px;
+    font-size: medium;
+    cursor: pointer;
+    font-size: bolt;
+}
+h1.h-primary {
+    text-align: center;
+}
+
+#h12{
+    margin-top: 20px;
+    background: #3293d4;
+    padding: 8px 20px;
+    color: #fff;
+    border-radius: 91% 90%;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+ul#sv12 {
+    display: flex;
+    list-style: none;
+    margin: -3px 497px;
+    justify-content: space-between;
+}
+#Menu{
+    display: block;
+   
+    text-align: center;
+}
+#Menu div h2{
+        background-color: #3293d4;
+        color: white;
+        padding: 4px;
+        margin: 9px;
+        border-radius: 91% 90%;
+        letter-spacing: 1px;
+        font-size: 29px;
+}
+#Menu  .box{
+    border: 2px solid black;
+    padding: 70px;
+    margin: 23px 13px;
+    border-radius: 47px;
+    background: #3293d4;
+    margin-bottom: 32px;
+    display: flex;
+    border-color: #3293d4;
+}
+#Menu .box img{
+    height: 160px;
+    margin: auto;
+    display: flex;
+}
+div#caption {
+    margin: -1px 50px;
+    padding: 13px;
+    left: 17px;
+    text-align: center;
+    font-style: italic;
+    font-family: math;
+    color: rgb(41, 59, 47);
+}
+div#Menuitem {
+ 
+    display: flex;
+    text-align: center;
+    margin: 1px 222px;
+}
+div.foot{
+    margin: 1px 370px;
+}
+
